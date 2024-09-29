@@ -3,7 +3,7 @@
 ## Employee Management Application
 
 - Connect to Mysql RDS Instance
-- mysql -H <RDS Endpoint> -u admin -p
+- mysql -H \< RDS Endpoint \> -u admin -p
 - create user 'tom'@'%' identified by 'root';
 - create database kube;
 - GRANT ALL PRIVILEGES ON kube.* TO 'tom'@'%';
